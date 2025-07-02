@@ -22,22 +22,6 @@ body {
 	align-items: center;
 }
 
-.texto {
-	width: 100%;
-	color: transparent;
-	text-align: center;
-	text-transform: uppercase;
-	font-size: 250px;
-	font-weight: bold;
-
-	background-image: url('./img/1.jpg');
-  /*background-image: url('./img/fondo.jpg');*/
-	background-size: cover;
-	background-position-y: 700px;
-	
-	background-clip: text;
-	-webkit-background-clip: text;
-
 .contenedor-logo {
   width: 80%;
   max-width: 300px;
@@ -56,3 +40,20 @@ body {
   85%  { transform: translateY(-10px); }
   100% { transform: translateY(0); }
 }
+
+.texto {
+	width: 100%;
+	color: transparent;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 250px;
+	font-weight: bold;
+
+	background-image: url('./img/1.jpg');
+  /*background-image: url('./img/fondo.jpg');*/
+	background-size: cover;
+	background-position-y: 700px;
+	
+	background-clip: text;
+	-webkit-background-clip: text;
+
